@@ -1,0 +1,16 @@
+> Check cables.  Replug everything even if it looks fine, especially the cable to the LiDAR.
+
+> Give the correct permissions to LiDAR for serial comms everytime it reconnects
+'sudo chmod a+rw /dev/ttyACM0'
+
+> Fix cartographer points
+
+> Figure out setting up static IP for the robot
+
+> Configuring connection to the NUC to visualise the maps requires additional network configuration:
+
+	- export ROS_IP
+	- export ROS_MASTER_URI
+	- See this for more info: http://wiki.ros.org/ROS/NetworkSetup
+
+
