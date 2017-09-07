@@ -1,6 +1,6 @@
 <launch>
 
-  <node name="laser_driver" pkg="hokuyo_node" type="hokuyo_node">
+  <node name="laser_driver" pkg="urg_node" type="urg_node">
     <param name="frame_id" value="laser_link" />
   </node>
 

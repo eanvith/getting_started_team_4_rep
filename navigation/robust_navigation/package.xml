@@ -59,7 +59,7 @@
   <run_depend>map_labelling</run_depend>
   
   <!--Needed to run hokuyo lidar -->
-  <run_depend>hokuyo_node</run_depend>
+  <run_depend>urg_node</run_depend>
   
 
 
