@@ -13,4 +13,5 @@
 	- export ROS_MASTER_URI
 	- See this for more info: http://wiki.ros.org/ROS/NetworkSetup
 
-
+"roslaunch robust_navigation basic_mapping.launch" to launch robust navigation
+"roslaunch turtlebot_teleop keyboard_teleop.launch" to launch keyboard control of robot

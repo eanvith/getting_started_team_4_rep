@@ -37,10 +37,10 @@ options = {
 
 MAP_BUILDER.use_trajectory_builder_2d = true
 
--- These seems to be depricated by the latest version of cartographer
---TRAJECTORY_BUILDER_2D.laser_min_range = 0.2
---TRAJECTORY_BUILDER_2D.laser_max_range = 4.
---TRAJECTORY_BUILDER_2D.laser_missing_echo_ray_length = 3.
+-- These had their names changed by the latest version of cartographer
+TRAJECTORY_BUILDER_2D.min_range = 0.2
+TRAJECTORY_BUILDER_2D.max_range = 4.
+TRAJECTORY_BUILDER_2D.missing_data_ray_length = 3.
 
 -- Your IMU was not helping. I disabled it and instead switched to the correlative scan matcher (i.e. only use laser information).
 TRAJECTORY_BUILDER_2D.use_imu_data = false
