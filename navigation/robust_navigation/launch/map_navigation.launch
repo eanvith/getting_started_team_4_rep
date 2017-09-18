@@ -8,7 +8,7 @@
   <include file="$(find robust_navigation)/launch/lidar.launch"/>
 
   <!-- Run the map server -->
-  <arg name="map_file" default="$(find robust_navigation)/maps/towne_levine_full2_heavily_edited.yaml"/>  
+  <arg name="map_file" default="$(find robust_navigation)/maps/levine_4th_good.yaml"/>  
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
   <!--- Run AMCL -->

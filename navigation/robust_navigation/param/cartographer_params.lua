@@ -44,7 +44,7 @@ TRAJECTORY_BUILDER_2D.motion_filter.max_angle_radians = math.rad(0.1)
 SPARSE_POSE_GRAPH.constraint_builder.min_score = 0.8
 SPARSE_POSE_GRAPH.constraint_builder.global_localization_min_score = 0.8
 
-SPARSE_POSE_GRAPH.optimize_every_n_scans = 0
+SPARSE_POSE_GRAPH.optimize_every_n_scans = 10
 
 --[[
 TRAJECTORY_BUILDER_2D.submaps.resolution = 0.035
